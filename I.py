@@ -12,12 +12,13 @@
             x = isinstance(Vehehicle, class)
             print(x)
 
-
-
 class Event:
     def __init__(self, name, date):
         self.name = name
         self.date = date
+        self.keywords = keyword
+        self.add_particitants = list_of_participants.append()
+        self.get_participant_count = get_participant_count()
     list_of_participants = []
     @classmethod
     def Add_Participant(name, age):
@@ -27,8 +28,6 @@ class Event:
     def get_participant_count(cls):
         return f"Number of participants: 
         {len(cls.list_of_participants)}"
-
-
 #Test 1
 v1 = Vehicle_1
 v1.reg_num = 44545
@@ -36,8 +35,6 @@ v1.type = "Ferrari"
 v1.owner ="Gorla"
 print(Vehicle)
 #Test 2
-E1 = Event_1
-E1.name = "Foko"
-E1.date = 8/9/2023
-Add_Participant("John", 36)
-get_participant_count(cls)
+event1 = Event("Event test", "2024-10-10")
+event1.add_participant("daniel", 24)
+event1.get_participant_count()
