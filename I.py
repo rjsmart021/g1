@@ -20,8 +20,13 @@ class Event:
         self.add_particitants = list_of_participants.append()
         self.get_participant_count = get_participant_count()
     list_of_participants = []
+ class Participant:  
+    def __init__(self, name, age):  
+        self.name = name  
+        self.age = age  
     @classmethod
     def Add_Participant(name, age):
+       return cls(name, age)  
        return list_of_participants.append()
        print(list_of_participants)
     @classmethod
