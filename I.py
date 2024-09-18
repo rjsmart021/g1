@@ -16,7 +16,7 @@ class Event:
     def __init__(self, name, date):
         self.name = name
         self.date = date
-        self.keywords = keyword
+        self.keywords = keywords
         self.add_particitants = list_of_participants.append()
         self.get_participant_count = get_participant_count()
     list_of_participants = []
