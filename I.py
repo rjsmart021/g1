@@ -27,7 +27,7 @@ class Event:
     @classmethod
     def get_participant_count(cls):
         return f"Number of participants: 
-        {len(cls.list_of_participants)}"
+        {len(self.list_of_participants)}"
 #Test 1
 v1 = Vehicle_1
 v1.reg_num = 44545
